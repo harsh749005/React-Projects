@@ -3,6 +3,7 @@ import './App.css';
 import Star from './components/Star';
 import Slider from './components/slider/Slider';
 import Load from './components/loadmore/Load';
+import TreeMenu from './components/treemenu/TreeMenu';
 function App() {
   return (
     <div className="App">
@@ -10,7 +11,9 @@ function App() {
       {/* <Star/> */}
       {/* Slider */}
       {/* <Slider/> */}
-      <Load/>
+      {/* Load More Data */}
+      {/* <Load/> */}
+      <TreeMenu/>
     </div>
   );
 }
