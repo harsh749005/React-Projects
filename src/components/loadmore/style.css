@@ -1,9 +1,12 @@
+/* Reset styles */
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
   user-select: none;
 }
+
+/* Main container styles */
 .main-container {
   background-color: antiquewhite;
   display: flex;
@@ -11,9 +14,11 @@
   justify-content: center;
   align-items: center;
   gap: 50px;
-  padding: 20px 0px;
-  }
-  .content {
+  padding: 20px 0;
+}
+
+/* Content area styles */
+.content {
   width: 80%;
   gap: 10px;
   display: flex;
@@ -21,16 +26,21 @@
   align-items: center;
   flex-wrap: wrap;
 }
+
+/* Image container styles */
 .image-container {
   width: 300px;
   height: 300px;
   object-fit: cover;
 }
+
 .image {
   border-radius: 5px;
   height: 100%;
   width: 100%;
 }
+
+/* Load more button styles */
 .LoadMore {
   padding: 5px;
   background-color: rgb(247, 140, 0);
