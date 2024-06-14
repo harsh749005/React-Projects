@@ -4,7 +4,7 @@
     box-sizing: border-box;
     user-select: none;
 }
-.image-container{
+.image-container-slider{
     
     height: 700px;
     object-fit: cover;

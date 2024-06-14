@@ -10,10 +10,10 @@ function App() {
       {/* Star-rating */}
       {/* <Star/> */}
       {/* Slider */}
-      {/* <Slider/> */}
+      <Slider/>
       {/* Load More Data */}
       {/* <Load/> */}
-      <TreeMenu/>
+      {/* <TreeMenu/> */}
     </div>
   );
 }
