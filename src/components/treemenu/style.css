@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-containier{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: antiquewhite;
+    width: 200px;
+    height: 200px;
+    gap: 20px;
+}
+span{
+    font-size: 20px;
+    cursor: pointer;
+}
+.increment{
+    background-color: aqua;
+    padding: 10px;
+}

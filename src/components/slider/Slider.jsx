@@ -28,7 +28,7 @@ function Slider(){
     };
         return(
         <div>
-            <div className="image-container">
+            <div className="image-container-slider">
                 <div onClick={decrementCount} className='next'><FaAngleRight /></div>
                 <div onClick={incrementCount} className='previous'><FaAngleLeft /></div>
                 
